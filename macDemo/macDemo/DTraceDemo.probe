@@ -1,0 +1,7 @@
+
+/* 提供者名称 DTraceDemo */
+provider DTraceDemo {
+ 
+   probe malloc_log(void *ptr, size_t size);
+ 
+};
